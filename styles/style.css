@@ -6,3 +6,107 @@ Green: #00B172
 White: #FFF
 
 */
+
+#logo {
+  margin-left: 10px;
+  width: 120px;
+  height: 35px;
+}
+#list {
+  font-size: 15px;
+  margin-right: 10px;
+  display: flex;
+  list-style-type: none;
+}
+
+#list li {
+  padding-left: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#first-section {
+    background-image: url(/images/landing.jpg);
+    background-size:cover;
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+
+#first-section h1{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+#first-section p{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+#description {
+    display: flex;
+  }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#description img {
+  width: 55px;
+  height: 40px;
+}
+
+#description h3 {
+  color: #00b172;
+  text-align: center;
+}
+#description p {
+  text-align: center;
+  width: 150px;
+  margin: 20px;
+  margin-top: 1px;
+}
+
+#second-section h2{
+    text-align: center;
+    text-decoration: underline #00b172;
+}
+
+footer {
+    background-color:#00B172;
+    background-size:cover;
+    color: white;
+    height: 450px;
+}
+#caractéristiques {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 35%; 
+   padding-right: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer img {
+    width: 180px;
+    height: 290px;
+    position: absolute; 
+    right: 0;
+}
+h4 {
+    font-size:20px;
+    padding-left: 30px;
+}
+h5{
+    font-size: 20px;
+}
+footer p{
+    font-size: 15px;
+}
